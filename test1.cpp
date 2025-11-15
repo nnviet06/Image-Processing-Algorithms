@@ -12,11 +12,11 @@ int main() {
     cv::putText(img, "OpenCV Works!", cv::Point(50, 150),
                 cv::FONT_HERSHEY_SIMPLEX, 1, cv::Scalar(255, 255, 255), 2);
     
-    cv::imshow("C++ Test", img);
+    cv::imshow("C++ Test", img); //Dependency error, took 2 days to fix, just to get this line running!
     std::cout << "Press any key to close the window..." << std::endl;
     cv::waitKey(0);
     
-    std::cout << "✓ OpenCV C++ working correctly!" << std::endl;
+    std::cout << "OpenCV C++ working correctly!" << std::endl;
     
     return 0;
 }
