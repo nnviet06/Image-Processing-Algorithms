@@ -3,7 +3,7 @@ project(OpenCVTest)
 
 set(CMAKE_CXX_STANDARD 11)
 
-# Đường dẫn OpenCV từ MSYS2
+# Dùng MSYS2 OpenCV
 set(OpenCV_DIR "C:/msys64/ucrt64/lib/cmake/opencv4")
 
 find_package(OpenCV REQUIRED)
