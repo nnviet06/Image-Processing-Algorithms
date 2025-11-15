@@ -20,4 +20,4 @@ print("Press any key to close the window...")
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
-print("✓ OpenCV Python working correctly!")
+print("OpenCV Python working correctly!")
